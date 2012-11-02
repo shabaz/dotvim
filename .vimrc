@@ -18,6 +18,7 @@ set backspace=indent,eol,start
 if &t_Co > 2 || has("gui_running")
   syntax on
   set hlsearch
+  let &t_Co=256
 endif
 
 
