@@ -2,7 +2,7 @@ set ignorecase smartcase
 set shiftwidth=4
 set tabstop=4
 set expandtab
-imap jj <Esc> 
+inoremap jj <Esc>
 set number
 set ruler		" show the cursor position all the time
 set colorcolumn=80
